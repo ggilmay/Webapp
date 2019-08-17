@@ -8,7 +8,8 @@ async function main() {
     console.log('Server on port', app.get('port'));
 }
 
+
 var os = require("os");
 var ifaces = os.networkInterfaces();
-console.log(ifaces.address);
+console.log(ifaces);
 main();
