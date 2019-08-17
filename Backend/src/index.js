@@ -10,5 +10,5 @@ async function main() {
 
 var os = require("os");
 var ifaces = os.networkInterfaces();
-console.log(ifaces);
+console.log(ifaces.address);
 main();
